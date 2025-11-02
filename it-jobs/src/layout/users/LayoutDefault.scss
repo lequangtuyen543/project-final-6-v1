@@ -1,0 +1,44 @@
+.layout-default {
+  // background-color: var(--background-color);
+  color: var(--text-color);
+
+  .header {
+    background-color: var(--background-color);
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: var(--text-color);
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .main {
+    min-height: calc(100vh - 120px); // Adjust based on header and footer height
+    padding: 20px;
+  }
+
+  .footer {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 10px 20px;
+
+    .container {
+      display: flex;
+      justify-content: center;
+    }
+
+    span {
+      margin: auto 0;
+    }
+  }
+}
